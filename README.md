@@ -11,6 +11,6 @@
 - Установите зависимости `poetry install`
 - Запустите тесты `pytest -v`
 - Убедитесь, что у вас установлен Docker и Docker Compose последних версий
-- Перейдите в папку deploy
+- Перейдите в папку deploy `cd deploy`
 - Запустите проект командамой `docker-compose up --build`
 - Проект доступен по адресу http://localhost:9999/ 
