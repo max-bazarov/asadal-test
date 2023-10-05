@@ -7,7 +7,7 @@
 Склонируйте репозиторий на свой компьютер
 - Измените файл .env.example на .env и заполните его
 - Установите poetry для установки зависимостей `pip3 install poetry`
-- Создайте виртуальное окружение `poetry shell` или `python3 -m venv env`
+- Создайте виртуальное окружение `poetry env use python3` или `python3 -m venv env`
 - Установите зависимости `poetry install`
 - Запустите тесты `pytest -v`
 - Убедитесь, что у вас установлен Docker и Docker Compose последних версий
